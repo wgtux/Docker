@@ -50,3 +50,6 @@ docker run -it ubuntu /bin/bash
 10- Criando uma imagem a partir de um Dockerfile
 
 docker build <caminho_do_arquivo>
+
+DOCKER COMPOSER
+docker-compose up -d
