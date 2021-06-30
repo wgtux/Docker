@@ -9,6 +9,7 @@ RUN apt-get update && \
     apt-get install -y php && \
     apt-get install -y php-xdebug && \
     apt-get install -y php7.4-mysql && \
+    apt-get install -y php7.4-mbstring && \
     apt-get install -y git && \
     php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && php composer-setup.php && rm composer-setup.php && mv composer.phar /usr/local/bin/composer && chmod a+x /usr/local/bin/composer
 
